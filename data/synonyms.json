@@ -1,0 +1,21 @@
+{
+  "groups": [
+    {"presentation": ["presentation", "slides", "ppt", "pptx", "powerpoint", "slide-deck"]},
+    {"coding": ["code", "coding", "development", "programming", "software"]},
+    {"testing": ["test", "testing", "qa", "coverage", "tdd"]},
+    {"security": ["security", "vulnerability", "owasp", "auth", "authentication"]},
+    {"documentation": ["document", "docs", "writing", "markdown", "readme"]},
+    {"review": ["review", "code-review", "audit", "inspection"]},
+    {"debugging": ["debug", "debugging", "fix", "bug", "troubleshoot"]},
+    {"build": ["build", "compile", "compilation", "ci"]},
+    {"git": ["git", "commit", "branch", "pr", "pull-request"]},
+    {"ai": ["ai", "llm", "agent", "orchestration", "autonomous", "intelligence"]},
+    {"search": ["search", "find", "locate", "explore", "discover"]},
+    {"office": ["office", "word", "excel", "pptx", "docx", "xlsx", "spreadsheet"]},
+    {"web": ["web", "frontend", "ui", "html", "css", "browser", "react"]},
+    {"api": ["api", "rest", "graphql", "endpoint", "service"]},
+    {"database": ["database", "sql", "postgres", "query", "nosql", "redis"]},
+    {"devops": ["devops", "docker", "kubernetes", "ci", "cd", "deploy"]},
+    {"data-science": ["data-science", "machine-learning", "ml", "analytics", "statistics"]}
+  ]
+}

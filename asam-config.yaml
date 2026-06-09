@@ -1,0 +1,32 @@
+# AIM Configuration
+# =================
+# Copy this file to your project root as aim-config.yaml and adjust.
+
+# Output workspace (Excel / JSON files are written here)
+workspace: ./results
+
+# Output filenames (relative to workspace)
+excel: assets_inventory.xlsx
+router: skills_router.json
+hotlist: skills_hotlist.json
+usage: skills_usage.json
+
+# Number of top skills to include in the hotlist
+hotlist_size: 20
+
+# Path to synonyms JSON file (optional, can be empty)
+synonyms: ./data/synonyms.json
+
+# Directories to scan for skills
+# Each entry has:
+#   path: absolute or relative (supports ~/ expansion)
+#   type: skill-cc | doc-reference | agent-sub | cli-command | mcp-server
+scan_dirs:
+  - path: ~/.agents/skills
+    type: skill-cc
+  - path: ~/my-company-skills
+    type: skill-cc
+  - path: ~/community-skills
+    type: doc-reference
+  - path: ./local-skills
+    type: skill-cc

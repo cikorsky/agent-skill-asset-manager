@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/asam-logo.png" width="200" alt="ASAM Logo">
+<img src="assets/asam-logo.png" width="350" alt="ASAM Logo">
 
 # ASAM — Agent Skill Asset Manager
 
